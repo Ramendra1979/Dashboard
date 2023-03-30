@@ -28,7 +28,7 @@ body {
   display: flex;
   padding: 30px 0px 10px 55px;
   margin-top: 60px;
-  
+
   background-color: #f8f9fc;
   flex-wrap: wrap;
 }
@@ -42,22 +42,21 @@ body {
   font-weight: 500;
   flex-direction: column;
   box-shadow: burlywood;
-  border:0.5px solid rgba(0, 0, 0, 0.06);
+  border: 0.5px solid rgba(0, 0, 0, 0.06);
 }
 .left-card p {
   font-size: 8px;
   font-weight: 500;
 }
 .left-card h4 {
-  padding:10px 0px 0px 50px;
+  padding: 10px 0px 0px 50px;
 }
- .left-card span {
+.left-card span {
   font-size: 17px;
   color: #48b990;
-padding: 5px 0px 0px 46px;
+  padding: 5px 0px 0px 46px;
 }
-.text-box h4 {
-}
+
 .bottom-left-card {
   width: 235px;
   min-height: 50px;
@@ -88,7 +87,7 @@ h3 {
   width: 150px;
   min-height: 20px;
   margin-right: -155px;
-  margin-top: -20px;
+   margin-top: -20px; 
 }
 .bt-1 {
   background-color: rgba(255, 0, 0, 0.395);
@@ -106,6 +105,12 @@ h3 {
   color: lightseagreen;
   background-color: rgba(32, 178, 171, 0.484);
 }
+.active-box {
+  width: 65%;
+  min-height: 160px;
+  display: flex;
+  justify-content: center;
+  }
 .right-cards {
   width: 120px;
   height: 150px;
@@ -113,19 +118,19 @@ h3 {
   background-color: #ffffff;
   flex-direction: column;
   align-items: center;
-  border:0.5px solid rgba(0, 0, 0, 0.06);
+  border: 0.5px solid rgba(0, 0, 0, 0.06);
   margin: 11px 0px 0px 10px;
 }
 .flash-card {
   border-bottom: 5px solid red;
 }
-.dashboard-top :nth-child(4) {
+.active-box :nth-child(3) {
   border-bottom: 5px solid orangered;
 }
-.dashboard-top :nth-child(5) {
+.active-box :nth-child(4) {
   border-bottom: 5px solid blue;
 }
-.dashboard-top :nth-child(6) {
+.active-box :nth-child(5) {
   border-bottom: 5px solid lightseagreen;
 }
 .right-cards button {
@@ -171,7 +176,7 @@ h3 {
   display: flex;
   flex-direction: column;
   margin-top: 15px;
-  border:0.5px solid rgba(0, 0, 0, 0.06);
+  border: 0.5px solid rgba(0, 0, 0, 0.06);
 }
 .middle-container h3 {
   width: 160px;
@@ -194,7 +199,7 @@ h3 {
   font-weight: 900;
   display: flex;
   margin: 0px 7px 0px 7px;
-  border:0.5px solid rgba(0, 0, 0, 0.06);
+  border: 0.5px solid rgba(0, 0, 0, 0.06);
 }
 .button-box i {
   margin: 2px 0px 0px 70px;
@@ -264,7 +269,7 @@ img {
   border: 1px solid;
   flex-direction: column;
   margin: 15px 0px 0px 20px;
-  border:0.5px solid rgba(0, 0, 0, 0.06);
+  border: 0.5px solid rgba(0, 0, 0, 0.06);
 }
 .top-right-box {
   width: 100%;
@@ -275,13 +280,13 @@ img {
 .top-right-box button {
   height: 20px;
   display: flex;
-  border:0.5px solid rgba(0, 0, 0, 0.06);
+  border: 0.5px solid rgba(0, 0, 0, 0.06);
 }
 .btn-box {
   height: 80px;
   width: 100%;
   display: flex;
-  }
+}
 .left-btn {
   width: 75%;
   height: 80px;
@@ -311,7 +316,7 @@ img {
 span {
   font-size: 12px;
   font-weight: 900;
-  color:  #48b990;
+  color: #48b990;
   margin: 5px;
 }
 .btn-box i {
@@ -327,7 +332,7 @@ span {
 .line {
   height: 5px;
   width: 105px;
-  }
+}
 .border :nth-child(1) {
   background-color: #22a280;
 }
@@ -351,7 +356,7 @@ span {
   width: 150px;
   font-weight: 700;
   font-size: 8px;
-    text-align: center;
+  text-align: center;
 }
 .description {
   width: 100%;
@@ -359,14 +364,13 @@ span {
   display: flex;
   align-items: center;
   justify-content: space-between;
-    background-color: #f8f9fb;
-    border:0.5px solid rgba(0, 0, 0, 0.06);
+  background-color: #f8f9fb;
+  border: 0.5px solid rgba(0, 0, 0, 0.06);
 }
 .description h6 {
   width: auto;
   font-size: 10px;
   text-align: center;
-  
 }
 .description :nth-child(1) {
   padding-left: 32px;
@@ -386,7 +390,7 @@ span {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  border:0.5px solid rgba(0, 0, 0, 0.06);
+  border: 0.5px solid rgba(0, 0, 0, 0.06);
 }
 .visit-box i {
   padding: 0px 6px 0px 6px;
@@ -403,14 +407,14 @@ span {
   border: none;
   margin-left: 40px;
 }
-.counting-box{
+.counting-box {
   width: 100%;
   height: 50px;
   display: flex;
   align-items: center;
-  }
-.counting-box button{
-  padding:0px 5px 0px 5px ;
-  border:0.5px solid rgba(0, 0, 0, 0.06);
-  margin:15px 6px 0px 6px ;
+}
+.counting-box button {
+  padding: 0px 5px 0px 5px;
+  border: 0.5px solid rgba(0, 0, 0, 0.06);
+  margin: 15px 6px 0px 6px;
 }
