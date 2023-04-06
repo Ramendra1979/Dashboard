@@ -1,0 +1,219 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  max-width: 100vw;
+  min-height: 100vh;
+  color: #ffffff;
+  font-family: "Open Sans", sans-serif;
+}
+.job-container {
+  width: 100%;
+  min-height: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 20px;
+  border: 5px solid #f6f8fc;
+}
+.top-header {
+  width: 100%;
+  min-height: 50px;
+  display: flex;
+  color: rgba(0, 0, 0, 0.732);
+  font-weight: 700;
+  align-items: center;
+  background-color: #f0f0f0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+}
+.top-header .logo {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  border-radius: 5px;
+  background-color: #f3d156;
+  margin-right: 10px;
+}
+.top-left {
+  width: 20%;
+  min-height: 50px;
+  display: flex;
+  align-items: center;
+}
+.navbar {
+  width: 60%;
+  min-height: 50px;
+  display: flex;
+  justify-content: center;
+}
+.nav-items {
+  width: auto;
+  min-height: 30px;
+  display: flex;
+  align-items: center;
+
+  padding: 0px 12px 0px 12px;
+}
+.navbar :nth-child(1) {
+  color: #ffa500;
+  border-bottom: 2px solid #ffa500;
+}
+.top-right {
+  width: 20%;
+  min-height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  border: 1px solid;
+}
+.top-right img {
+  padding: 0px 25px 0px 25px;
+}
+.bottom-header {
+  width: 100%;
+  min-height: 170px;
+  display: flex;
+  background-color: #f0f0f0;
+}
+.bottom-left {
+  width: 50%;
+  min-height: 170px;
+  padding: 50px 0px 0px 50px;
+  color: rgb(0, 0, 0);
+}
+.bottom-left p {
+  color: rgba(0, 0, 0, 0.6);
+}
+.bottom-right {
+  width: 50%;
+  min-height: 170px;
+}
+.bottom-right img {
+  width: 100%;
+  height: 165px;
+  padding-top: 2px;
+}
+.middle-LR-container {
+  width: 100%;
+  min-height: 600px;
+  display: flex;
+  background-color: #ffffff;
+}
+.middle-left {
+  width: 30%;
+  min-height: 500px;
+  padding: 20px 0px 0px 45px;
+  border: 1px solid black;
+}
+.catagory-container {
+  width: 92%;
+  min-height: 500px;
+  border-radius: 10px 10px 0px 0px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+.filter {
+  width: 100%;
+  min-height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: black;
+  padding-left: 20px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+.filter span {
+  color: palevioletred;
+  padding-right: 20px;
+}
+.data-post {
+  width: 93%;
+  min-height: 100px;
+  color: black;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 20px 0px 0px 20px;
+}
+.data-post button {
+  width: 250px;
+  min-height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 10px 0px 10px;
+  margin-top: 10px;
+}
+.job-type {
+  width: 93%;
+  min-height: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0px 0px 0px 20px;
+  color: black;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+.job-type .btn {
+  width: 120px;
+  height: 20px;
+  font-weight: 700;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+}
+.job-type p {
+  width: 82%;
+}
+.job-type button {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  color: green;
+}
+.range-salary {
+  width: 93%;
+  min-height: 100px;
+  font-size: 12px;
+  font-weight: 700;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0px 0px 0px 20px;
+  color: black;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+.middle-right {
+  width: 70%;
+  min-height: 500px;
+  display: flex;
+  border: 1px solid black;
+}
+.range-salary .btn {
+  width: 120px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+}
+.range-salary p {
+  width: 82%;
+}
+.range-salary button {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+  border-radius: 50%;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  color: green;
+}
+li {
+  font-size: 30px;
+  margin-left: 5px;
+  margin-bottom: 1.5px;
+}
